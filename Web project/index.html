@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Trisolaris - Musical Instruments from Three body city</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="css/ie7.css" type="text/css">
+	<![endif]-->
+	<script>
+        window.onload = function() {
+            alert("Welcome to Trisolaris Instrument Store! Professor Ozaydin Fatih ;)");
+        };
+    </script>
+	<script>
+        function showCurrentTime() {
+            // Get the current time
+            const options = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
+            const currentTime = new Intl.DateTimeFormat('en-US', options).format(new Date());
+            
+            // Display the time
+            document.getElementById("timeDisplay").innerText = "Current Time: " + currentTime;
+        }
+    </script>
+</head>
+<body>
+	<div class="header">
+		<div>
+			<a href="index.html" id="logo"><img src="images/logo.png" alt="logo"></a>
+			<ul>
+				<li class="selected">
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+				<li>
+					<a href="collections.html">Collections</a>
+					<ul>
+						<li>
+							<a href="collections.html">Spring</a>
+						</li>
+						<li>
+							<a href="collections.html">Fall</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="blog.html">Blog</a>
+				</li>
+				<li>
+					<a href="locator.html">Store Locator</a>
+				</li>
+			</ul>
+		</div>
+		<div class="featured">
+			<img src="images/bg-absolute.png" alt="">
+			<div>
+				<h3>Music... <br> Is More...</h3>
+				<a href="collections.html">2023 Spring Collection</a>
+			</div>
+		</div>
+	</div>
+	<div class="body">
+		<div>
+			<h2>Welcome to Trisolaris - Musical Instruments from Three body city</h2>
+			<button onclick="showCurrentTime()">Show Current Time</button>
+    <p id="timeDisplay"></p>
+			<p>
+				At Trisolaris, we don’t just sell instruments—we ignite your musical journey! From soulful guitars to mesmerizing keyboards, and everything in between, we have the tools to transform your passion into sound. Whether you're a seasoned pro or just starting to strum your first chord, our curated collection ensures there’s something perfect for you.
+			</p>
+			<ul>
+				<li>
+					<a href="collections.html"><img src="images/figure2.jpg" alt=""></a> <a href="collections.html">Electric Guitar</a>
+				</li>
+				<li>
+					<a href="collections.html"><img src="images/figure3.jpg" alt=""></a> <a href="collections.html">Ukulele</a>
+				</li>
+				<li>
+					<a href="collections.html"><img src="images/figure4.jpg" alt=""></a> <a href="collections.html">Bass Guitar</a>
+				</li>
+				<li>
+					<a href="collections.html"><img src="images/figure5.jpg" alt=""></a> <a href="collections.html">Cello</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer">
+		<div>
+			<p>
+				Trisolaris
+			</p>
+			<ul>
+				<li>
+					<a href="#">Privacy Policy</a>
+				</li>
+				<li>
+					<a href="#">Terms And Conditions</a>
+				</li>
+			</ul>
+			<p id="student-info">Anarzaya Batbold - Student ID: 23224512</p> 
+			<div class="connect">
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
